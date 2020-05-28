@@ -44,4 +44,5 @@ const MultiPly = () => {
 
 }
 
-module.exports = MultiPly;
+export default MultiPly;
+// module.exports = MultiPly;

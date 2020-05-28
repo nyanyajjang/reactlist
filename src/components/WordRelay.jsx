@@ -49,4 +49,5 @@ class WordRelay extends Component {
     }
 }
 //instead of value={this.state.value} onChangeInput={this.onChangeInput} , defaultValue is possible.
-module.exports = WordRelay;
+export default WordRelay;
+// module.exports = WordRelay;

@@ -4,9 +4,9 @@ import './index.css';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import MultiPly from './components/MultiPly';
+import WordRelay from './components/WordRelay';
 
-const MultiPly = require('./components/multiply');
-const WordRelay = require('./components/WordRelay');
 
 ReactDOM.render(<div><MultiPly /><WordRelay /></div>, document.querySelector('#root'));
 
