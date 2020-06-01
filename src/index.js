@@ -6,9 +6,9 @@ import * as serviceWorker from './serviceWorker';
 
 import MultiPly from './components/MultiPly';
 import WordRelay from './components/WordRelay';
+import ResponseCheck from './components/ResponseCheck';
 
-
-ReactDOM.render(<div><MultiPly /><WordRelay /></div>, document.querySelector('#root'));
+ReactDOM.render(<div><MultiPly /><WordRelay /><ResponseCheck/></div>, document.querySelector('#root'));
 
 // ReactDOM.render(
 //   <React.StrictMode>

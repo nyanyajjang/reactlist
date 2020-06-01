@@ -48,7 +48,7 @@ endTime;
         const { result } = this.state;
         return result.length === 0 
         ? null
-        : <div>평균 시간: {result.reduce((a,c) => a + c) / result.length}ms</div>
+        : <div>Average time: {result.reduce((a,c) => a + c) / result.length}ms</div>
         
     }
 
@@ -66,7 +66,7 @@ endTime;
         </div>
         {this.renderAverage()}
         {/* {this.state.result.length !== 0 
-        && <div>평균 시간: {this.state.result.reduce((a,c) => a + c) / this.state.result.length}ms</div>
+        && <div>average time: {this.state.result.reduce((a,c) => a + c) / this.state.result.length}ms</div>
         } */}
         
      </>

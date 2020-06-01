@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+     #screen {
+         width: 300px;
+         height: 200px;
+         text-align: center;
+         user-select: none;
+     }
+     #screen.waiting {
+         background-color: skyblue;
+     }
+     #screen.ready {
+         background-color: violet;
+         color: white;
+     }
+     #screen.now {
+         background-color: peru;
+     }
