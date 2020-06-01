@@ -74,4 +74,4 @@ endTime;
     }
 }
 
-module.exports = ResponseCheck;
+export default ResponseCheck;
