@@ -30,7 +30,7 @@ endTime;
             clearTimeout(this.timeout);
             this.setState({
             state: 'waiting',
-            message: 'too hurry. Click after changing to green'
+            message: 'too hurry. Click again'
         })  
         } else if (state === 'now') {
             this.endTime = new Date();
